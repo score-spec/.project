@@ -9,7 +9,5 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - astromechza
           - chris-stephenson
           - mathieu-benoit
-          - sujaya-sys
