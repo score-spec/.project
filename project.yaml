@@ -35,8 +35,9 @@ adopters:
 
 
 package_managers:
-  docker: "scorespec/score-compose"
-  docker: "scorespec/score-k8s"
+  docker:
+    - "scorespec/score-compose"
+    - "scorespec/score-k8s"
 
 social:
   linkedin: "https://www.linkedin.com/company/score-dev"
