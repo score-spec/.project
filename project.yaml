@@ -1,25 +1,30 @@
 # .project metadata for Score
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "score"
 name: "Score"
 description: "Score is an open-source workload specification designed to simplify development for cloud-native developers."
 type: "project"
-project_lead: "astromechza" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+project_lead:
+  - "mathieu-benoit"
+  - "chris-stephenson"
+slack_channels:
   - name: "#score"
     primary: true
+  - name: "#score-dev"
+    primary: false
 
 maturity_log:
   - phase: "sandbox"
     date: "2024-07-08T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/79" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/79"
 
 repositories:
   - "https://github.com/score-spec/spec"
+  - "https://github.com/score-spec/score-go"
+  - "https://github.com/score-spec/score-compose"
+  - "https://github.com/score-spec/score-k8s"
 
 website: "https://score.dev/"
 
@@ -29,12 +34,12 @@ adopters:
   path: "https://github.com/score-spec/spec/blob/main/ADOPTERS.md"
 
 
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "score-spec/spec"
+package_managers:
+  docker: "scorespec/score-compose"
+  docker: "scorespec/score-k8s"
 
 social:
-  twitter: "https://twitter.com/score_dev"
+  linkedin: "https://www.linkedin.com/company/score-dev"
 
 security:
   policy:
