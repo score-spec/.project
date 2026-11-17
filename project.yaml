@@ -28,7 +28,7 @@ repositories:
 
 website: "https://score.dev/"
 
-artwork: "https://landscape.cncf.io/logos/score.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/score"
 
 adopters:
   path: "https://github.com/score-spec/spec/blob/main/ADOPTERS.md"
